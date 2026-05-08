@@ -9,6 +9,11 @@
 #define ADJ 3
 #define EXTRA 4
 
+&msc {
+    time-to-max-speed-ms = <100>;
+    acceleration-exponent = <0>;
+};
+
 / {
     behaviors {
         hm: homerow_mods {
@@ -184,6 +189,26 @@
         scrolldown {
             bindings = <&msc SCRL_DOWN>;
             key-positions = <17 29>;
+        };
+
+        homerowshift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <16 15>;
+        };
+
+        leftn {
+            bindings = <&mo 2>;
+            key-positions = <15 14>;
+        };
+
+        rightn {
+            bindings = <&mo 3>;
+            key-positions = <21 20>;
+        };
+
+        rshift {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <20 19>;
         };
     };
 
