@@ -156,12 +156,12 @@
 
         leftn {
             bindings = <&mo 2>;
-            key-positions = <15 14>;
+            key-positions = <20 21>;
         };
 
         rightn {
             bindings = <&mo 3>;
-            key-positions = <21 20>;
+            key-positions = <15 14>;
         };
 
         rshift {
@@ -185,10 +185,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp E     &kp R     &kp T        &kp Y    &kp U          &kp I         &kp O    &kp P     &kp BACKSPACE
-&kp TAB     &kp A  &kp S  &kp D     &kp F     &kp G        &kp H    &kp J          &kp K         &kp L    &kp SEMI  &kp SQT
-&mo 5       &kp Z  &kp X  &kp C     &kp V     &kp B        &kp N    &kp M          &kp COMMA     &kp DOT  &kp FSLH  &mo 0
-                          &kp LGUI  &mkp MB1  &kp SPACE    &kp RET  &kp BACKSPACE  &kp LEFT_ALT
+&kp ESCAPE  &kp Q  &kp W  &kp E     &kp R     &kp T        &kp Y    &kp U          &kp I      &kp O    &kp P     &kp BACKSPACE
+&kp TAB     &kp A  &kp S  &kp D     &kp F     &kp G        &kp H    &kp J          &kp K      &kp L    &kp SEMI  &kp SQT
+&mo 5       &kp Z  &kp X  &kp C     &kp V     &kp B        &kp N    &kp M          &kp COMMA  &kp DOT  &kp FSLH  &mo 0
+                          &kp LGUI  &mkp MB1  &kp SPACE    &kp RET  &kp BACKSPACE  &mo 4
             >;
         };
 
@@ -222,10 +222,10 @@
 
         numpad {
             bindings = <
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans    &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
-&trans  &trans  &kp N4  &kp N5  &kp N6  &trans    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
-&trans  &trans  &kp N1  &kp N2  &kp N3  &trans    &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
-                        &kp N0  &trans  &trans    &trans  &trans  &kp N0
+&trans  &trans  &kp N7  &kp N8  &kp N9  &trans    &trans  &trans  &kp N7  &kp N8  &kp N9  &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &trans    &trans  &trans  &kp N4  &kp N5  &kp N6  &trans
+&trans  &trans  &kp N1  &kp N2  &kp N3  &trans    &trans  &kp N0  &kp N1  &kp N2  &kp N3  &trans
+                        &kp N0  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
